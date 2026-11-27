@@ -1,0 +1,16 @@
+<%- include('template',{title:'login'}) %>
+<h1 class="text-center text-2xl">Login</h1>
+
+<div class="shadow-2xl mx-auto w-1/2">
+    <form action="/login" method="post" class="flex flex-col justify-center items-center p-2">
+        
+        <label for="email">email</label>
+        <input type="email" name="email" id="email">
+        
+        <label for="pass">password</label>
+        <input type="password" name="password" id="pass">
+        
+        <button type="submit" class="bg-blue-500 rounded-full p-2">Login</button>
+    </form>
+
+</div>
